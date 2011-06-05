@@ -1,0 +1,16 @@
+Croogo Sitemap plugin
+------------------------------
+Creates a XML sitemap for Google
+
+
+How to use
+------------------------------
+- Log in to admin panel
+- Go to Extensions > Plugins page
+- Upload the zip file (available here)
+- Click on tick/cross icon of 'Sitemap' for activating or deactivating the plugin
+
+
+Notes
+------------------------------
+- To change the default priority for an individual node set CustomField.priority

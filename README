@@ -13,4 +13,8 @@ How to use
 
 Notes
 ------------------------------
-- To change the default priority for an individual node set CustomField.priority
+- Change the default priority for an individual node set CustomField.priority
+- Change the default frequency set CustomField.frequency
+- Add additional sitemap pages via Extensions > Sitemap > Maintain
+- When adding sitemap pages the lastmod is a strtotime field, e.g. enter "-7 days"
+- Exclude a node from the sitemap set CustomField.sitemap to false

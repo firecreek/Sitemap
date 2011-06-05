@@ -157,7 +157,13 @@
       ));
       
       foreach($nodes as $node)
-      {      
+      {
+        //Skip this page
+        if(isset($node['CustomField']['sitemap']) && $node['CustomField']['sitemap'] == false)
+        {
+          continue;
+        }
+      
         $output[] = array(
           'loc'         => Router::url($node['Node']['url'],true),
           'lastmod'     => date('Y-m-d',strtotime($node['Node']['updated'])),
